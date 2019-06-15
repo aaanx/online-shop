@@ -18,7 +18,7 @@ export default [
       name: "54b8353ca5a58a255c5e6fd99e1473ac.jpg",
       description: null,
       url:
-        "https://images.unsplash.com/photo-1474225183201-99971f7495cf?ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80",
+        "https://ocen-piwo.pl/upload/22148835cc9738f9f462f4642f6dc97f.png",
       width: 1262,
       height: 768,
       size: "74740",
@@ -46,7 +46,7 @@ export default [
       name: "54b8353ca5a58a255c5e6fd99e1473ac.jpg",
       description: null,
       url:
-        "https://images.unsplash.com/photo-1474225183201-99971f7495cf?ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80",
+        "https://ocen-piwo.pl/upload/lechpils.png",
       width: 1262,
       height: 768,
       size: "74740",
@@ -74,7 +74,7 @@ export default [
       name: "54b8353ca5a58a255c5e6fd99e1473ac.jpg",
       description: null,
       url:
-        "https://images.unsplash.com/photo-1474225183201-99971f7495cf?ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80",
+        "https://ocen-piwo.pl/upload/tyskie-ksiazece.png",
       width: 1262,
       height: 768,
       size: "74740",
@@ -102,7 +102,7 @@ export default [
       name: "54b8353ca5a58a255c5e6fd99e1473ac.jpg",
       description: null,
       url:
-        "https://images.unsplash.com/photo-1474225183201-99971f7495cf?ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80",
+        "https://ocen-piwo.pl/upload/32fc6e7921909573077ccd7d541d2488.png",
       width: 1262,
       height: 768,
       size: "74740",
@@ -130,7 +130,7 @@ export default [
       name: "54b8353ca5a58a255c5e6fd99e1473ac.jpg",
       description: null,
       url:
-        "https://images.unsplash.com/photo-1474225183201-99971f7495cf?ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80",
+        "https://ocen-piwo.pl/upload/cdab48dc2216cfaaf044af81078fe6bf.png",
       width: 1262,
       height: 768,
       size: "74740",
