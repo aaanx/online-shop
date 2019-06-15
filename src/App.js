@@ -4,6 +4,8 @@ import Category from './Pages/CategoryPage.js';
 import productPage from './Pages/ProductPage.js';
 
 import './App.css';
+import ProductPage from './Pages/ProductPage.js'
+
 
 function App() {
   return (
