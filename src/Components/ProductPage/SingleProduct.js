@@ -1,6 +1,7 @@
 import React from 'react';
 import HeaderProductPage from './HeaderProductPage.js';
 import BodyProductPage from './BodyProductPage.js';
+import './SingleProduct.css';
 
 
 function SingleProduct(props) {
