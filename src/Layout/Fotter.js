@@ -1,9 +1,11 @@
 import React from 'react';
 
-function Fotter() {
-Render () {
-    return (
-    );
-};
-export default Fotter;
-git add
+function Footer() {
+    render() {
+        return (
+            <p>Stopka</p>
+        );
+    }
+}
+
+export default Footer;
