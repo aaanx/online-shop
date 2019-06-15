@@ -1,25 +1,15 @@
 import React from 'react';
-import ProductData from '../productsData.js';
-import SingleProduct from '../Components/ProductPage/SingleProduct';
+import ProductsData from '../productsData.js';
+import SingleProduct from '../Components/ProductPage/SingleProduct.js';
 
-let element;
+function ProductPage({ match }) {
+    let addProduct = ProductsData.find(function (product) {
+        return product.id == match.params.id;
+    });
 
-function PorductPage(props) {
-    console.log(props)
-    ProductData.find((item)=>{
-        if(item.id === props){
-             element = item;
-            console.log(element)
-             return element
-        }
-        else{
-            return(<h1>error</h1>)
-        }
-    })
-    
     return (
-        <SingleProduct key={element.id} {...element} />
+        <SingleProduct key={addProduct.id} {...addProduct} />
     )
 }
 
-export default PorductPage;
+export default ProductPage;
