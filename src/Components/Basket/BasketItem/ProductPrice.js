@@ -8,7 +8,9 @@ class ProductPrice extends React.Component {
   render() {
     return (
       <div>
-        <span>{(this.props.price * this.props.quantity).toFixed(2)}</span>
+        <span>{`${(this.props.price * this.props.quantity).toFixed(
+          2
+        )} zł`}</span>
       </div>
     );
   }

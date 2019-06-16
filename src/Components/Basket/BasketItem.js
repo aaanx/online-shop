@@ -28,12 +28,12 @@ class BasketItem extends React.Component {
 }
 
 const basketItemStyle = {
-  margin: "20px 5px",
+  margin: "20px 0",
   padding: "5px",
-  background: "#f4f4f4",
+  background: "rgba(245, 171, 53, .1)",
   display: "flex",
   alignItems: "center",
-  justifyContent: "space-around"
+  justifyContent: "space-between"
 };
 
 export default BasketItem;

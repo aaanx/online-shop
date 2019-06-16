@@ -6,17 +6,7 @@ import NextBtn from "../Components/Basket/NextBtn";
 class BasketPage extends React.Component {
   constructor(props) {
     super(props);
-
   }
-
-  // sum basket products prices
-  // sumBasket = () => {
-  //   this.state.basketItems.map((basketItem) => {
-  //     reduce(currentValue, accumulator)
-  //   })
-  // };
-
-
 
   render() {
     return (
