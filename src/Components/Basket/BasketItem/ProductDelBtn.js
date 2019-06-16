@@ -9,7 +9,7 @@ class ProductDelBtn extends React.Component {
           style={delBtnStyle}
           onClick={this.props.delBasketItem}
         >
-          X
+          <i class="fa fa-times-circle" />
         </button>
       </React.Fragment>
     );
@@ -18,9 +18,11 @@ class ProductDelBtn extends React.Component {
 
 const delBtnStyle = {
   fontWeight: "600",
+  fontSize: "25px",
   border: "none",
-  background: "#000",
-  color: "#fff"
+  background: "transparent",
+  color: "#000",
+  paddingRight: "20px"
 };
 
 export default ProductDelBtn;

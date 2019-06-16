@@ -18,14 +18,14 @@ export default [
       name: "54b8353ca5a58a255c5e6fd99e1473ac.jpg",
       description: null,
       url:
-        "https://images.unsplash.com/photo-1474225183201-99971f7495cf?ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80",
+        "https://images.unsplash.com/photo-1521572008054-962cefc90ce7?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80",
       width: 1262,
       height: 768,
       size: "74740",
       createdAt: "2018-12-28T16:43:12.000Z",
       updatedAt: "2018-12-28T16:43:12.000Z"
     },
-    tags: ["browar", "picie", "alko", "impreza", "grill"]
+    tags: ["browar", "piwo", "impreza", "grill"]
   },
   {
     id: 20,
@@ -46,14 +46,14 @@ export default [
       name: "54b8353ca5a58a255c5e6fd99e1473ac.jpg",
       description: null,
       url:
-        "https://images.unsplash.com/photo-1474225183201-99971f7495cf?ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80",
+        "https://images.unsplash.com/photo-1521572008054-962cefc90ce7?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80",
       width: 1262,
       height: 768,
       size: "74740",
       createdAt: "2018-12-28T16:43:12.000Z",
       updatedAt: "2018-12-28T16:43:12.000Z"
     },
-    tags: ["browar", "picie", "alko", "impreza", "grill"]
+    tags: ["browar", "piwo", "impreza", "grill"]
   },
   {
     id: 21,
@@ -74,14 +74,14 @@ export default [
       name: "54b8353ca5a58a255c5e6fd99e1473ac.jpg",
       description: null,
       url:
-        "https://images.unsplash.com/photo-1474225183201-99971f7495cf?ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80",
+        "https://images.unsplash.com/photo-1521572008054-962cefc90ce7?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80",
       width: 1262,
       height: 768,
       size: "74740",
       createdAt: "2018-12-28T16:43:12.000Z",
       updatedAt: "2018-12-28T16:43:12.000Z"
     },
-    tags: ["browar", "picie", "alko", "impreza", "grill"]
+    tags: ["browar", "piwo", "impreza", "grill"]
   },
   {
     id: 22,
@@ -102,14 +102,14 @@ export default [
       name: "54b8353ca5a58a255c5e6fd99e1473ac.jpg",
       description: null,
       url:
-        "https://images.unsplash.com/photo-1474225183201-99971f7495cf?ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80",
+        "https://images.unsplash.com/photo-1521572008054-962cefc90ce7?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80",
       width: 1262,
       height: 768,
       size: "74740",
       createdAt: "2018-12-28T16:43:12.000Z",
       updatedAt: "2018-12-28T16:43:12.000Z"
     },
-    tags: ["browar", "picie", "alko", "impreza", "grill"]
+    tags: ["browar", "piwo", "impreza", "grill"]
   },
   {
     id: 23,
@@ -130,13 +130,13 @@ export default [
       name: "54b8353ca5a58a255c5e6fd99e1473ac.jpg",
       description: null,
       url:
-        "https://images.unsplash.com/photo-1474225183201-99971f7495cf?ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80",
+        "https://images.unsplash.com/photo-1521572008054-962cefc90ce7?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80",
       width: 1262,
       height: 768,
       size: "74740",
       createdAt: "2018-12-28T16:43:12.000Z",
       updatedAt: "2018-12-28T16:43:12.000Z"
     },
-    tags: ["browar", "picie", "alko", "impreza", "grill"]
+    tags: ["browar", "piwo", "impreza", "grill"]
   }
 ];

@@ -11,7 +11,9 @@ class ProductName extends React.Component {
 }
 
 const productNameStyle = {
-  margin: "0"
+  margin: "0",
+  paddingLeft: "20px",
+  width: "70%"
 };
 
 export default ProductName;
