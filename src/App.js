@@ -6,6 +6,7 @@ import ProductPage from "./Pages/ProductPage.js";
 import BasketPage from "./Pages/BasketPage";
 import Header from "./Layout/Header.js";
 import Footer from "./Layout/Footer.js";
+import AuthPage from "./Pages/AuthPage.js";
 
 class App extends React.Component {
   constructor(props) {
@@ -14,6 +15,7 @@ class App extends React.Component {
       basketItems: []
     };
   }
+
   // update product quantity
   updateQuantity = (quantity, id) => {
     const item = this.state.basketItems.find(item => {
@@ -72,6 +74,7 @@ class App extends React.Component {
                 />
               )}
             />
+            <Route exact path="/auth" component={AuthPage} />
             <Route exact path="/:id" component={ProductPage} />
           </Switch>
           <Footer />
