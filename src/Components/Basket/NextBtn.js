@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 class NextBtn extends React.Component {
   render() {
@@ -6,7 +7,13 @@ class NextBtn extends React.Component {
       <React.Fragment>
         <button style={nextBtnStyle}>
           <span style={nextTextStyle}>Shipping</span>
-          <i className="fa fa-arrow-circle-right iconNext" style={iconNextStyle} />
+
+          <Link to="/auth">
+            <i
+              className="fa fa-arrow-circle-right iconNext"
+              style={iconNextStyle}
+            />
+          </Link>
         </button>
       </React.Fragment>
     );

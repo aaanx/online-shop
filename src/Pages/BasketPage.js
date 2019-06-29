@@ -20,8 +20,8 @@ class BasketPage extends React.Component {
 
         <div className="basketNav" style={basketNavStyle}>
           <BasketSum basketItems={this.props.basketItems} />
-          <NextBtn />
         </div>
+        <NextBtn />
       </React.Fragment>
     );
   }
