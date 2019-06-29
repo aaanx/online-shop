@@ -11,7 +11,7 @@ class LogIn extends React.Component {
     this.state = {
       emailValue: "",
       passwordValue: "",
-      logInfo: "INFO"
+      logInfo: ""
     };
   }
 

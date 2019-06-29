@@ -9,7 +9,6 @@ import Footer from "./Layout/Footer.js";
 import AuthPage from "./Pages/AuthPage.js";
 import AddToBasketAlert from "./Components/Basket/AddToBasketAlert.js";
 
-
 class App extends React.Component {
   constructor(props) {
     super(props);
@@ -41,40 +40,48 @@ class App extends React.Component {
 
   // add product to basket
   addToBasket = el => {
-    let newBasketItem = {
-      id: el.id,
-      name: el.title,
-      quantity: 1,
-      price: el.price
-    };
-    this.setState({
-      basketItems: [...this.state.basketItems, newBasketItem]
+    let foundBasketItem = this.state.basketItems.find(basketItem => {
+      return basketItem.id === el.id;
     });
-    console.log([...this.state.basketItems, newBasketItem]);
+    if (foundBasketItem) {
+      this.updateQuantity(foundBasketItem.quantity + 1, foundBasketItem.id);
+    } else {
+      let newBasketItem = {
+        id: el.id,
+        name: el.title,
+        quantity: 1,
+        price: el.price
+      };
+      this.setState({
+        basketItems: [...this.state.basketItems, newBasketItem]
+      });
+    }
   };
 
   addToBasketAlert = () => {
     this.setState({
       isClicked: true
-    })
+    });
     setTimeout(() => {
       this.setState({
         isClicked: false
-      })
-    }, 1000)
-  }
+      });
+    }, 1000);
+  };
 
-  clickAddProduct = (el) => {
+  clickAddProduct = el => {
     this.addToBasket(el);
     this.addToBasketAlert();
-  }
+  };
 
   render() {
     return (
       <Router>
         <div className="pageWrapper" style={pageWrapperStyle}>
           <Header />
-          {this.state.isClicked === true ? <AddToBasketAlert showAlert={this.props} /> : null}
+          {this.state.isClicked === true ? (
+            <AddToBasketAlert showAlert={this.props} />
+          ) : null}
           <Switch>
             <Route
               exact
