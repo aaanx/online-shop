@@ -10,7 +10,7 @@ import Footer from "./Layout/Footer.js";
 
 
 render() {
-  class Blog extends React.Component {}
+  class Blog extends React.Component { }
   return (
     <div className="fa fa-beer beerIcon" style={beerIconStyle} >
       <i style={beerIconStyle}>
@@ -34,14 +34,14 @@ class ShowPost extends React.Component {
 
   render() {
     return (
-      <div className="">
-        <a href="#" className="">
-          <h4 className=""></h4>
-          <p className="">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+      <div className="TextStyle">
+        <a className="TextStyle">
+          <h4 className="TitleStyle">Miłosław</h4>
+          <p className="Textstyle">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
         </a>
-        <a href="#" className="">
-          <h4 className=""></h4>
-          <p className="">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+        <a className="TextStyle">
+          <h4 className="TitleStyle">Fortuna</h4>
+          <p className="TextStyle">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
         </a>
       </div>
     )
@@ -69,7 +69,5 @@ const TextStyle = {
   marginLeft: "15px",
   leterSpacing: "5px"
 };
-
-const
 
 export default Blog;
