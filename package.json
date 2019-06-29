@@ -4,10 +4,13 @@
   "private": true,
   "dependencies": {
     "bootstrap": "^4.3.1",
+    "express-session": "^1.16.2",
     "font-awesome": "^4.7.0",
+    "mongodb": "^3.2.7",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-icons": "^2.2.7",
+    "react-node-app": "git+https://github.com/royagasthyan/ReactBlogApp-SignUp.git",
     "react-router": "^5.0.1",
     "react-router-dom": "^5.0.1",
     "react-scripts": "3.0.1"
