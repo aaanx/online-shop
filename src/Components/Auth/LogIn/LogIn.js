@@ -1,4 +1,5 @@
 import React from "react";
+import { Redirect } from "react-router";
 import withFirebaseAuth from "react-with-firebase-auth";
 import { providers, firebaseAppAuth } from "../../../firebaseProvider.js";
 import * as firebase from "firebase/app";
@@ -11,6 +12,8 @@ class LogIn extends React.Component {
     this.state = {
       emailValue: "",
       passwordValue: "",
+      logInfo: "",
+      isAuthenticated: false,
       logInfo: ""
     };
   }
@@ -57,8 +60,8 @@ class LogIn extends React.Component {
     firebase
       .auth()
       .signInWithEmailAndPassword(email, password)
-      .then(function() {
-        window.location = "http://localhost:3000/";
+      .then(() => {
+        this.setState({ isAuthenticated: true });
       })
       .catch(error => {
         let errorCode = error.code;
@@ -143,6 +146,13 @@ class LogIn extends React.Component {
           />
           <br />
           <p>{this.state.logInfo}</p>
+          {this.state.isAuthenticated && (
+            <Redirect
+              to={{
+                pathname: "/order"
+              }}
+            />
+          )}
           <button type="submit">Log in</button>
         </form>
       </React.Fragment>

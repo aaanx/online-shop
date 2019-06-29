@@ -8,6 +8,7 @@ import Header from "./Layout/Header.js";
 import Footer from "./Layout/Footer.js";
 import AuthPage from "./Pages/AuthPage.js";
 import AddToBasketAlert from "./Components/Basket/AddToBasketAlert.js";
+import FinishOrderPage from "./Pages/FinishOrderPage.js";
 
 class App extends React.Component {
   constructor(props) {
@@ -102,6 +103,7 @@ class App extends React.Component {
               )}
             />
             <Route exact path="/auth" component={AuthPage} />
+            <Route exact path="/order" component={FinishOrderPage} />
             <Route exact path="/:id" component={ProductPage} />
           </Switch>
           <Footer />
