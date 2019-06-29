@@ -8,7 +8,7 @@ class ButtonAdd extends React.Component {
   render() {
     return (
       <button
-        onClick={this.props.addToBasket.bind(this, this.props)}
+        onClick={this.props.clickAddProduct.bind(this, this.props)}
         style={buttonAddStyle}
       >
         <i className="fa fa-plus-circle" />

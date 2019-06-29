@@ -6,12 +6,14 @@ import ProductPage from "./Pages/ProductPage.js";
 import BasketPage from "./Pages/BasketPage";
 import Header from "./Layout/Header.js";
 import Footer from "./Layout/Footer.js";
+import AddToBasketAlert from "./Components/Basket/AddToBasketAlert.js";
 
 class App extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      basketItems: []
+      basketItems: [],
+      isClicked: false
     };
   }
   // update product quantity
@@ -48,17 +50,34 @@ class App extends React.Component {
     console.log([...this.state.basketItems, newBasketItem]);
   };
 
+  addToBasketAlert = () => {
+    this.setState({
+      isClicked: true
+    })
+    setTimeout(() => {
+      this.setState({
+        isClicked: false
+      })
+    }, 1000)
+  }
+
+  clickAddProduct = (el) => {
+    this.addToBasket(el);
+    this.addToBasketAlert();
+  }
+
   render() {
     return (
       <Router>
         <div className="pageWrapper" style={pageWrapperStyle}>
           <Header />
+          {this.state.isClicked === true ? <AddToBasketAlert showAlert={this.props} /> : null}
           <Switch>
             <Route
               exact
               path="/"
               component={() => (
-                <Category addToBasket={this.addToBasket.bind(this)} />
+                <Category clickAddProduct={this.clickAddProduct.bind(this)} />
               )}
             />
             <Route

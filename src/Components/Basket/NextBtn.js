@@ -6,7 +6,7 @@ class NextBtn extends React.Component {
       <React.Fragment>
         <button style={nextBtnStyle}>
           <span style={nextTextStyle}>Shipping</span>
-          <i class="fa fa-arrow-circle-right iconNext" style={iconNextStyle} />
+          <i className="fa fa-arrow-circle-right iconNext" style={iconNextStyle} />
         </button>
       </React.Fragment>
     );
