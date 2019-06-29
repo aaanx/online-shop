@@ -17,7 +17,7 @@ class BasketPage extends React.Component {
           updateQuantity={this.props.updateQuantity}
           updatePrice={this.updatePrice}
         />
-        ;
+
         <div className="basketNav" style={basketNavStyle}>
           <BasketSum basketItems={this.props.basketItems} />
           <NextBtn />

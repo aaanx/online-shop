@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 class Header extends React.Component {
   render() {
@@ -9,18 +9,12 @@ class Header extends React.Component {
         <p className="headerTitle" style={headerTitleStyle}>
           Online Beer Shop
         </p>
-        <button
-          onClick={this.basket}
-          className="basketBtn"
-          style={basketBtnStyle}
-        >
-          <Link to="/Basket/" style={{ float: "right" }}>
-            <i
-              className="fa fa-shopping-cart basketIcon"
-              style={basketIconStyle}
-            />
-          </Link>
-        </button>
+        <Link to="/basket" style={basketBtnStyle}>
+          <i
+            className="fa fa-shopping-cart basketIcon"
+            style={basketIconStyle}
+          />
+        </Link>
       </div>
     );
   }
@@ -55,12 +49,14 @@ const basketBtnStyle = {
   border: "none",
   outline: "none",
   background: "transparent",
-  padding: "5px 30px"
+  padding: "5px 30px",
+  float: "right"
 };
 
 const basketIconStyle = {
   display: "block",
-  fontSize: "30px"
+  fontSize: "30px",
+  color: '#000'
 };
 
 export default Header;

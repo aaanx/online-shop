@@ -11,26 +11,7 @@ class App extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      basketItems: [
-        {
-          id: 2,
-          name: "Browar dodany do koszyka",
-          quantity: 17,
-          price: 12.99
-        },
-        {
-          id: 3,
-          name: "Browar vvvv do koszyka",
-          quantity: 1,
-          price: 15.99
-        },
-        {
-          id: 4,
-          name: "Browar vvvv do koszyka",
-          quantity: 1,
-          price: 15.99
-        }
-      ]
+      basketItems: []
     };
   }
   // update product quantity
@@ -82,7 +63,7 @@ class App extends React.Component {
             />
             <Route
               exact
-              path="/Basket/"
+              path="/basket"
               component={() => (
                 <BasketPage
                   updateQuantity={this.updateQuantity.bind(this)}
