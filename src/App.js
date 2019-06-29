@@ -41,16 +41,22 @@ class App extends React.Component {
 
   // add product to basket
   addToBasket = el => {
-    let newBasketItem = {
-      id: el.id,
-      name: el.title,
-      quantity: 1,
-      price: el.price
-    };
-    this.setState({
-      basketItems: [...this.state.basketItems, newBasketItem]
+    let foundBasketItem = this.state.basketItems.find(basketItem => {
+      return basketItem.id === el.id;
     });
-    console.log([...this.state.basketItems, newBasketItem]);
+    if (foundBasketItem) {
+      this.updateQuantity(foundBasketItem.quantity + 1, foundBasketItem.id);
+    } else {
+      let newBasketItem = {
+        id: el.id,
+        name: el.title,
+        quantity: 1,
+        price: el.price
+      };
+      this.setState({
+        basketItems: [...this.state.basketItems, newBasketItem]
+      });
+    }
   };
 
   addToBasketAlert = () => {

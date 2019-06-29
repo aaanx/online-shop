@@ -13,7 +13,8 @@ class LogIn extends React.Component {
       emailValue: "",
       passwordValue: "",
       logInfo: "",
-      isAuthenticated: false
+      isAuthenticated: false,
+      logInfo: ""
     };
   }
 
