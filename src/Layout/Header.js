@@ -5,7 +5,9 @@ class Header extends React.Component {
   render() {
     return (
       <div className="header" style={headerStyle}>
-        <i className="fa fa-beer beerIcon" style={beerIconStyle} />
+        <Link to="/">
+          <i className="fa fa-beer beerIcon" style={beerIconStyle} />
+        </Link>
         <p className="headerTitle" style={headerTitleStyle}>
           Online Beer Shop
         </p>
@@ -34,7 +36,8 @@ const headerStyle = {
 const beerIconStyle = {
   fontSize: "30px",
   display: "block",
-  padding: "5px 30px"
+  padding: "5px 30px",
+  color: "#000"
 };
 
 const headerTitleStyle = {
