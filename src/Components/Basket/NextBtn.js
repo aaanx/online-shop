@@ -7,9 +7,10 @@ class NextBtn extends React.Component {
       <React.Fragment>
         <button style={nextBtnStyle}>
           <span style={nextTextStyle}>Shipping</span>
+
           <Link to="/auth">
             <i
-              class="fa fa-arrow-circle-right iconNext"
+              className="fa fa-arrow-circle-right iconNext"
               style={iconNextStyle}
             />
           </Link>

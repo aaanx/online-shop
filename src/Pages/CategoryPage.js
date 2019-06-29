@@ -11,7 +11,7 @@ function Category(props) {
             <Product
               key={product.id}
               {...product}
-              addToBasket={props.addToBasket}
+              clickAddProduct={props.clickAddProduct}
             />
           );
         })}
