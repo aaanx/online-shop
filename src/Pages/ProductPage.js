@@ -8,7 +8,7 @@ function ProductPage({ match }) {
     });
 
     return (
-        <SingleProduct key={addProduct.id} {...addProduct} />
+        <Blog key={addProduct.id} {...addProduct} />
     )
 }
 
