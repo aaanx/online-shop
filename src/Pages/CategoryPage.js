@@ -1,6 +1,7 @@
 import React from "react";
 import Products from "../productsData.js";
 import Product from "../Components/Product/Product.js";
+import Pagination from "../Components/Pagination/Pagination.js";
 
 function Category(props) {
   return (
@@ -16,6 +17,7 @@ function Category(props) {
           );
         })}
       </div>
+      <Pagination />
     </div>
   );
 }
