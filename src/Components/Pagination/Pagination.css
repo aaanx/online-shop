@@ -1,7 +1,7 @@
 .pagination {
   margin-top: 25px;
 }
-.pagination span {
+.page-item {
   cursor: pointer;
   color: black;
   float: left;
@@ -9,10 +9,28 @@
   text-decoration: none;
   transition: background-color 0.3s;
   border: 1px solid #ddd;
+  width: 42px;
+  height: 42px;
 }
 
-.pagination span.active {
+.page-item-active {
+  cursor: pointer;
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  transition: background-color 0.3s;
+  border: 1px solid #ddd;
+  width: 42px;
+  height: 42px;
+
   background-color: rgba(245, 171, 53, 0.6);
   color: black;
   border: 1px solid rgba(245, 171, 53, 0.6);
+}
+
+.p-link {
+  display: block;
+  width: 42px;
+  height: 42px;
 }
