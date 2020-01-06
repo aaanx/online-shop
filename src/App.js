@@ -1,6 +1,6 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Link, Switch } from "react-router-dom";
-import Category from "./Pages/CategoryPage.js";
+import CategoryPage from "./Pages/CategoryPage.js";
 import "./App.css";
 import ProductPage from "./Pages/ProductPage.js";
 import BasketPage from "./Pages/BasketPage";
@@ -88,7 +88,9 @@ class App extends React.Component {
               exact
               path="/"
               component={() => (
-                <Category clickAddProduct={this.clickAddProduct.bind(this)} />
+                <CategoryPage
+                  clickAddProduct={this.clickAddProduct.bind(this)}
+                />
               )}
             />
             <Route
