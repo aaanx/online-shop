@@ -1,3 +1,15 @@
+/*
+beer types
+Ale
+Cask ale
+Kellerbier
+Lager
+Strong ale
+Sour ale
+Wheat beer
+Zwickelbier
+*/
+
 export default [
   {
     id: 1,
@@ -9,7 +21,7 @@ export default [
     shortDescription:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
     socialDescription: null,
-    seoDescription: "browar, picie, alko, impreza, grill",
+    seoDescription: "beer, alcohol, drink, party, grill",
     createdAt: "2018-02-13T14:15:33.000Z",
     updatedAt: "2018-12-28T16:43:15.000Z",
     imageId: 6,
@@ -25,7 +37,8 @@ export default [
       createdAt: "2018-12-28T16:43:12.000Z",
       updatedAt: "2018-12-28T16:43:12.000Z"
     },
-    tags: ["browar", "piwo", "impreza", "grill"]
+    tags: ["browar", "piwo", "impreza", "grill"],
+    categories: ["Ale"]
   },
   {
     id: 2,
@@ -37,7 +50,7 @@ export default [
     shortDescription:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
     socialDescription: null,
-    seoDescription: "browar, picie, alko, impreza, grill",
+    seoDescription: "beer, alcohol, drink, party, grill",
     createdAt: "2018-02-13T14:15:33.000Z",
     updatedAt: "2018-12-28T16:43:15.000Z",
     imageId: 6,
@@ -53,7 +66,8 @@ export default [
       createdAt: "2018-12-28T16:43:12.000Z",
       updatedAt: "2018-12-28T16:43:12.000Z"
     },
-    tags: ["browar", "piwo", "impreza", "grill"]
+    tags: ["browar", "piwo", "impreza", "grill"],
+    categories: ["Lager"]
   },
   {
     id: 3,
@@ -65,7 +79,7 @@ export default [
     shortDescription:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
     socialDescription: null,
-    seoDescription: "browar, picie, alko, impreza, grill",
+    seoDescription: "beer, alcohol, drink, party, grill",
     createdAt: "2018-02-13T14:15:33.000Z",
     updatedAt: "2018-12-28T16:43:15.000Z",
     imageId: 6,
@@ -81,7 +95,8 @@ export default [
       createdAt: "2018-12-28T16:43:12.000Z",
       updatedAt: "2018-12-28T16:43:12.000Z"
     },
-    tags: ["browar", "piwo", "impreza", "grill"]
+    tags: ["browar", "piwo", "impreza", "grill"],
+    categories: ["Strong ale"]
   },
   {
     id: 4,
@@ -93,7 +108,7 @@ export default [
     shortDescription:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
     socialDescription: null,
-    seoDescription: "browar, picie, alko, impreza, grill",
+    seoDescription: "beer, alcohol, drink, party, grill",
     createdAt: "2018-02-13T14:15:33.000Z",
     updatedAt: "2018-12-28T16:43:15.000Z",
     imageId: 6,
@@ -109,7 +124,8 @@ export default [
       createdAt: "2018-12-28T16:43:12.000Z",
       updatedAt: "2018-12-28T16:43:12.000Z"
     },
-    tags: ["browar", "piwo", "impreza", "grill"]
+    tags: ["browar", "piwo", "impreza", "grill"],
+    categories: ["Sour ale"]
   },
   {
     id: 5,
@@ -121,7 +137,7 @@ export default [
     shortDescription:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
     socialDescription: null,
-    seoDescription: "browar, picie, alko, impreza, grill",
+    seoDescription: "beer, alcohol, drink, party, grill",
     createdAt: "2018-02-13T14:15:33.000Z",
     updatedAt: "2018-12-28T16:43:15.000Z",
     imageId: 6,
@@ -137,7 +153,8 @@ export default [
       createdAt: "2018-12-28T16:43:12.000Z",
       updatedAt: "2018-12-28T16:43:12.000Z"
     },
-    tags: ["browar", "piwo", "impreza", "grill"]
+    tags: ["browar", "piwo", "impreza", "grill"],
+    categories: ["Cask ale"]
   },
   {
     id: 6,
@@ -149,7 +166,7 @@ export default [
     shortDescription:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
     socialDescription: null,
-    seoDescription: "browar, picie, alko, impreza, grill",
+    seoDescription: "beer, alcohol, drink, party, grill",
     createdAt: "2018-02-13T14:15:33.000Z",
     updatedAt: "2018-12-28T16:43:15.000Z",
     imageId: 6,
@@ -165,7 +182,8 @@ export default [
       createdAt: "2018-12-28T16:43:12.000Z",
       updatedAt: "2018-12-28T16:43:12.000Z"
     },
-    tags: ["browar", "piwo", "impreza", "grill"]
+    tags: ["browar", "piwo", "impreza", "grill"],
+    categories: ["Kellerbier"]
   },
   {
     id: 7,
@@ -177,7 +195,7 @@ export default [
     shortDescription:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
     socialDescription: null,
-    seoDescription: "browar, picie, alko, impreza, grill",
+    seoDescription: "beer, alcohol, drink, party, grill",
     createdAt: "2018-02-13T14:15:33.000Z",
     updatedAt: "2018-12-28T16:43:15.000Z",
     imageId: 6,
@@ -193,7 +211,8 @@ export default [
       createdAt: "2018-12-28T16:43:12.000Z",
       updatedAt: "2018-12-28T16:43:12.000Z"
     },
-    tags: ["browar", "piwo", "impreza", "grill"]
+    tags: ["browar", "piwo", "impreza", "grill"],
+    categories: ["Wheat beer"]
   },
   {
     id: 8,
@@ -205,7 +224,7 @@ export default [
     shortDescription:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
     socialDescription: null,
-    seoDescription: "browar, picie, alko, impreza, grill",
+    seoDescription: "beer, alcohol, drink, party, grill",
     createdAt: "2018-02-13T14:15:33.000Z",
     updatedAt: "2018-12-28T16:43:15.000Z",
     imageId: 6,
@@ -221,7 +240,8 @@ export default [
       createdAt: "2018-12-28T16:43:12.000Z",
       updatedAt: "2018-12-28T16:43:12.000Z"
     },
-    tags: ["browar", "piwo", "impreza", "grill"]
+    tags: ["browar", "piwo", "impreza", "grill"],
+    categories: ["Zwickelbier"]
   },
   {
     id: 9,
@@ -233,7 +253,7 @@ export default [
     shortDescription:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
     socialDescription: null,
-    seoDescription: "browar, picie, alko, impreza, grill",
+    seoDescription: "beer, alcohol, drink, party, grill",
     createdAt: "2018-02-13T14:15:33.000Z",
     updatedAt: "2018-12-28T16:43:15.000Z",
     imageId: 6,
@@ -249,7 +269,8 @@ export default [
       createdAt: "2018-12-28T16:43:12.000Z",
       updatedAt: "2018-12-28T16:43:12.000Z"
     },
-    tags: ["browar", "piwo", "impreza", "grill"]
+    tags: ["browar", "piwo", "impreza", "grill"],
+    categories: ["Ale"]
   },
   {
     id: 10,
@@ -261,7 +282,7 @@ export default [
     shortDescription:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
     socialDescription: null,
-    seoDescription: "browar, picie, alko, impreza, grill",
+    seoDescription: "beer, alcohol, drink, party, grill",
     createdAt: "2018-02-13T14:15:33.000Z",
     updatedAt: "2018-12-28T16:43:15.000Z",
     imageId: 6,
@@ -277,7 +298,8 @@ export default [
       createdAt: "2018-12-28T16:43:12.000Z",
       updatedAt: "2018-12-28T16:43:12.000Z"
     },
-    tags: ["browar", "piwo", "impreza", "grill"]
+    tags: ["browar", "piwo", "impreza", "grill"],
+    categories: ["Kellerbier"]
   },
   {
     id: 11,
@@ -289,7 +311,7 @@ export default [
     shortDescription:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
     socialDescription: null,
-    seoDescription: "browar, picie, alko, impreza, grill",
+    seoDescription: "beer, alcohol, drink, party, grill",
     createdAt: "2018-02-13T14:15:33.000Z",
     updatedAt: "2018-12-28T16:43:15.000Z",
     imageId: 6,
@@ -305,7 +327,8 @@ export default [
       createdAt: "2018-12-28T16:43:12.000Z",
       updatedAt: "2018-12-28T16:43:12.000Z"
     },
-    tags: ["browar", "piwo", "impreza", "grill"]
+    tags: ["browar", "piwo", "impreza", "grill"],
+    categories: ["Cask ale"]
   },
   {
     id: 12,
@@ -317,7 +340,7 @@ export default [
     shortDescription:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
     socialDescription: null,
-    seoDescription: "browar, picie, alko, impreza, grill",
+    seoDescription: "beer, alcohol, drink, party, grill",
     createdAt: "2018-02-13T14:15:33.000Z",
     updatedAt: "2018-12-28T16:43:15.000Z",
     imageId: 6,
@@ -333,7 +356,8 @@ export default [
       createdAt: "2018-12-28T16:43:12.000Z",
       updatedAt: "2018-12-28T16:43:12.000Z"
     },
-    tags: ["browar", "piwo", "impreza", "grill"]
+    tags: ["browar", "piwo", "impreza", "grill"],
+    categories: ["Lager"]
   },
   {
     id: 13,
@@ -345,7 +369,7 @@ export default [
     shortDescription:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
     socialDescription: null,
-    seoDescription: "browar, picie, alko, impreza, grill",
+    seoDescription: "beer, alcohol, drink, party, grill",
     createdAt: "2018-02-13T14:15:33.000Z",
     updatedAt: "2018-12-28T16:43:15.000Z",
     imageId: 6,
@@ -361,7 +385,8 @@ export default [
       createdAt: "2018-12-28T16:43:12.000Z",
       updatedAt: "2018-12-28T16:43:12.000Z"
     },
-    tags: ["browar", "piwo", "impreza", "grill"]
+    tags: ["browar", "piwo", "impreza", "grill"],
+    categories: ["Ale"]
   },
   {
     id: 14,
@@ -373,7 +398,7 @@ export default [
     shortDescription:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
     socialDescription: null,
-    seoDescription: "browar, picie, alko, impreza, grill",
+    seoDescription: "beer, alcohol, drink, party, grill",
     createdAt: "2018-02-13T14:15:33.000Z",
     updatedAt: "2018-12-28T16:43:15.000Z",
     imageId: 6,
@@ -389,7 +414,8 @@ export default [
       createdAt: "2018-12-28T16:43:12.000Z",
       updatedAt: "2018-12-28T16:43:12.000Z"
     },
-    tags: ["browar", "piwo", "impreza", "grill"]
+    tags: ["browar", "piwo", "impreza", "grill"],
+    categories: ["Wheat beer"]
   },
   {
     id: 15,
@@ -401,7 +427,7 @@ export default [
     shortDescription:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
     socialDescription: null,
-    seoDescription: "browar, picie, alko, impreza, grill",
+    seoDescription: "beer, alcohol, drink, party, grill",
     createdAt: "2018-02-13T14:15:33.000Z",
     updatedAt: "2018-12-28T16:43:15.000Z",
     imageId: 6,
@@ -417,7 +443,8 @@ export default [
       createdAt: "2018-12-28T16:43:12.000Z",
       updatedAt: "2018-12-28T16:43:12.000Z"
     },
-    tags: ["browar", "piwo", "impreza", "grill"]
+    tags: ["browar", "piwo", "impreza", "grill"],
+    categories: ["Sour ale"]
   },
   {
     id: 16,
@@ -429,7 +456,7 @@ export default [
     shortDescription:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
     socialDescription: null,
-    seoDescription: "browar, picie, alko, impreza, grill",
+    seoDescription: "beer, alcohol, drink, party, grill",
     createdAt: "2018-02-13T14:15:33.000Z",
     updatedAt: "2018-12-28T16:43:15.000Z",
     imageId: 6,
@@ -445,7 +472,8 @@ export default [
       createdAt: "2018-12-28T16:43:12.000Z",
       updatedAt: "2018-12-28T16:43:12.000Z"
     },
-    tags: ["browar", "piwo", "impreza", "grill"]
+    tags: ["browar", "piwo", "impreza", "grill"],
+    categories: ["Zwickelbier"]
   },
   {
     id: 17,
@@ -457,7 +485,7 @@ export default [
     shortDescription:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
     socialDescription: null,
-    seoDescription: "browar, picie, alko, impreza, grill",
+    seoDescription: "beer, alcohol, drink, party, grill",
     createdAt: "2018-02-13T14:15:33.000Z",
     updatedAt: "2018-12-28T16:43:15.000Z",
     imageId: 6,
@@ -473,7 +501,8 @@ export default [
       createdAt: "2018-12-28T16:43:12.000Z",
       updatedAt: "2018-12-28T16:43:12.000Z"
     },
-    tags: ["browar", "piwo", "impreza", "grill"]
+    tags: ["browar", "piwo", "impreza", "grill"],
+    categories: ["Ale"]
   },
   {
     id: 18,
@@ -485,7 +514,7 @@ export default [
     shortDescription:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
     socialDescription: null,
-    seoDescription: "browar, picie, alko, impreza, grill",
+    seoDescription: "beer, alcohol, drink, party, grill",
     createdAt: "2018-02-13T14:15:33.000Z",
     updatedAt: "2018-12-28T16:43:15.000Z",
     imageId: 6,
@@ -501,7 +530,8 @@ export default [
       createdAt: "2018-12-28T16:43:12.000Z",
       updatedAt: "2018-12-28T16:43:12.000Z"
     },
-    tags: ["browar", "piwo", "impreza", "grill"]
+    tags: ["browar", "piwo", "impreza", "grill"],
+    categories: ["Wheat beer"]
   },
   {
     id: 19,
@@ -513,7 +543,7 @@ export default [
     shortDescription:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
     socialDescription: null,
-    seoDescription: "browar, picie, alko, impreza, grill",
+    seoDescription: "beer, alcohol, drink, party, grill",
     createdAt: "2018-02-13T14:15:33.000Z",
     updatedAt: "2018-12-28T16:43:15.000Z",
     imageId: 6,
@@ -529,7 +559,8 @@ export default [
       createdAt: "2018-12-28T16:43:12.000Z",
       updatedAt: "2018-12-28T16:43:12.000Z"
     },
-    tags: ["browar", "piwo", "impreza", "grill"]
+    tags: ["browar", "piwo", "impreza", "grill"],
+    categories: ["Sour ale"]
   },
   {
     id: 20,
@@ -541,7 +572,7 @@ export default [
     shortDescription:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
     socialDescription: null,
-    seoDescription: "browar, picie, alko, impreza, grill",
+    seoDescription: "beer, alcohol, drink, party, grill",
     createdAt: "2018-02-13T14:15:33.000Z",
     updatedAt: "2018-12-28T16:43:15.000Z",
     imageId: 6,
@@ -557,7 +588,8 @@ export default [
       createdAt: "2018-12-28T16:43:12.000Z",
       updatedAt: "2018-12-28T16:43:12.000Z"
     },
-    tags: ["browar", "piwo", "impreza", "grill"]
+    tags: ["browar", "piwo", "impreza", "grill"],
+    categories: ["Lager"]
   },
   {
     id: 21,
@@ -569,7 +601,7 @@ export default [
     shortDescription:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
     socialDescription: null,
-    seoDescription: "browar, picie, alko, impreza, grill",
+    seoDescription: "beer, alcohol, drink, party, grill",
     createdAt: "2018-02-13T14:15:33.000Z",
     updatedAt: "2018-12-28T16:43:15.000Z",
     imageId: 6,
@@ -585,7 +617,8 @@ export default [
       createdAt: "2018-12-28T16:43:12.000Z",
       updatedAt: "2018-12-28T16:43:12.000Z"
     },
-    tags: ["browar", "piwo", "impreza", "grill"]
+    tags: ["browar", "piwo", "impreza", "grill"],
+    categories: ["Lager"]
   },
   {
     id: 22,
@@ -597,7 +630,7 @@ export default [
     shortDescription:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
     socialDescription: null,
-    seoDescription: "browar, picie, alko, impreza, grill",
+    seoDescription: "beer, alcohol, drink, party, grill",
     createdAt: "2018-02-13T14:15:33.000Z",
     updatedAt: "2018-12-28T16:43:15.000Z",
     imageId: 6,
@@ -613,7 +646,8 @@ export default [
       createdAt: "2018-12-28T16:43:12.000Z",
       updatedAt: "2018-12-28T16:43:12.000Z"
     },
-    tags: ["browar", "piwo", "impreza", "grill"]
+    tags: ["browar", "piwo", "impreza", "grill"],
+    categories: ["Kellerbier"]
   },
   {
     id: 23,
@@ -625,7 +659,7 @@ export default [
     shortDescription:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
     socialDescription: null,
-    seoDescription: "browar, picie, alko, impreza, grill",
+    seoDescription: "beer, alcohol, drink, party, grill",
     createdAt: "2018-02-13T14:15:33.000Z",
     updatedAt: "2018-12-28T16:43:15.000Z",
     imageId: 6,
@@ -641,7 +675,8 @@ export default [
       createdAt: "2018-12-28T16:43:12.000Z",
       updatedAt: "2018-12-28T16:43:12.000Z"
     },
-    tags: ["browar", "piwo", "impreza", "grill"]
+    tags: ["browar", "piwo", "impreza", "grill"],
+    categories: ["Cask ale"]
   },
   {
     id: 24,
@@ -653,7 +688,7 @@ export default [
     shortDescription:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
     socialDescription: null,
-    seoDescription: "browar, picie, alko, impreza, grill",
+    seoDescription: "beer, alcohol, drink, party, grill",
     createdAt: "2018-02-13T14:15:33.000Z",
     updatedAt: "2018-12-28T16:43:15.000Z",
     imageId: 6,
@@ -669,7 +704,8 @@ export default [
       createdAt: "2018-12-28T16:43:12.000Z",
       updatedAt: "2018-12-28T16:43:12.000Z"
     },
-    tags: ["browar", "piwo", "impreza", "grill"]
+    tags: ["browar", "piwo", "impreza", "grill"],
+    categories: ["Cask ale"]
   },
   {
     id: 25,
@@ -681,7 +717,7 @@ export default [
     shortDescription:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
     socialDescription: null,
-    seoDescription: "browar, picie, alko, impreza, grill",
+    seoDescription: "beer, alcohol, drink, party, grill",
     createdAt: "2018-02-13T14:15:33.000Z",
     updatedAt: "2018-12-28T16:43:15.000Z",
     imageId: 6,
@@ -697,6 +733,7 @@ export default [
       createdAt: "2018-12-28T16:43:12.000Z",
       updatedAt: "2018-12-28T16:43:12.000Z"
     },
-    tags: ["browar", "piwo", "impreza", "grill"]
+    tags: ["browar", "piwo", "impreza", "grill"],
+    categories: ["Wheat beer"]
   }
 ];
