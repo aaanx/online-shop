@@ -6,6 +6,7 @@ import ProductPage from "./Pages/ProductPage.js";
 import BasketPage from "./Pages/BasketPage";
 import Header from "./Layout/Header.js";
 import Footer from "./Layout/Footer.js";
+import SideMenu from "./Layout/SideMenu.js";
 import AuthPage from "./Pages/AuthPage.js";
 import AddToBasketAlert from "./Components/Basket/AddToBasketAlert.js";
 import FinishOrderPage from "./Pages/FinishOrderPage.js";
@@ -83,6 +84,7 @@ class App extends React.Component {
           {this.state.isClicked === true ? (
             <AddToBasketAlert showAlert={this.props} />
           ) : null}
+          <SideMenu />
           <Switch>
             <Route
               exact
