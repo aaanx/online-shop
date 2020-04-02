@@ -84,32 +84,34 @@ class App extends React.Component {
           {this.state.isClicked === true ? (
             <AddToBasketAlert showAlert={this.props} />
           ) : null}
-          <SideMenu />
-          <Switch>
-            <Route
-              exact
-              path="/"
-              component={() => (
-                <CategoryPage
-                  clickAddProduct={this.clickAddProduct.bind(this)}
-                />
-              )}
-            />
-            <Route
-              exact
-              path="/basket"
-              component={() => (
-                <BasketPage
-                  updateQuantity={this.updateQuantity.bind(this)}
-                  delBasketItem={this.delBasketItem.bind(this)}
-                  basketItems={this.state.basketItems}
-                />
-              )}
-            />
-            <Route exact path="/auth" component={AuthPage} />
-            <Route exact path="/order" component={FinishOrderPage} />
-            <Route exact path="/:id" component={ProductPage} />
-          </Switch>
+          <div className="contentWrapper" style={contentWrapperStyle}>
+            <SideMenu />
+            <Switch>
+              <Route
+                exact
+                path="/"
+                component={() => (
+                  <CategoryPage
+                    clickAddProduct={this.clickAddProduct.bind(this)}
+                  />
+                )}
+              />
+              <Route
+                exact
+                path="/basket"
+                component={() => (
+                  <BasketPage
+                    updateQuantity={this.updateQuantity.bind(this)}
+                    delBasketItem={this.delBasketItem.bind(this)}
+                    basketItems={this.state.basketItems}
+                  />
+                )}
+              />
+              <Route exact path="/auth" component={AuthPage} />
+              <Route exact path="/order" component={FinishOrderPage} />
+              <Route exact path="/:id" component={ProductPage} />
+            </Switch>
+          </div>
           <Footer />
         </div>
       </Router>
@@ -122,6 +124,11 @@ const pageWrapperStyle = {
   display: "block",
   width: "100%",
   minHeight: "100%"
+};
+
+const contentWrapperStyle = {
+  display: "flex",
+  alignItems: "stretch"
 };
 
 export default App;

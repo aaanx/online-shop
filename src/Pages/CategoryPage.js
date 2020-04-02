@@ -21,7 +21,7 @@ function Category(props) {
   const paginate = pageNum => setCurrentPage(pageNum);
 
   return (
-    <div className="container">
+    <div id="productsList" style={productsListStyle}>
       <div className="row">
         {currentProducts.map(product => {
           return (
@@ -42,5 +42,9 @@ function Category(props) {
     </div>
   );
 }
+
+const productsListStyle = {
+  padding: "20px 10px"
+};
 
 export default Category;
